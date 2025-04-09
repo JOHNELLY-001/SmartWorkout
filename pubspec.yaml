@@ -1,0 +1,61 @@
+name: smart_one
+description: "Good-to-go"
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add the assets section to include your image
+  assets:
+    - assets/images/images_(3).jpeg
+    - assets/images/pexels-photo-3814408.jpeg
+    - assets/images/push_ups.jpg
+    - assets/images/istockphoto-13squatsup-612x612.jpg
+    - assets/images/istockphoto-5sits_up-612x612.jpg
+    - assets/images/istockphoto-696178526-1024x1024.jpg
+    - assets/icons/pexels-icon-1954524.jpeg
+    - assets/images/istockphoto-8body-stretch-612x612.jpg
+    - assets/images/pexels-warmup-3768916.webp
+    - assets/images/lossweight.jpg
+    - assets/images/images_diet.jpg
+    - assets/images/images_exercises.jpg
+    - assets/images/images_meditate.jpg
+    - assets/images/gain_weight.jpg
+    - assets/images/bodystretch.jpg
+
+  # You can add more assets here if needed
+  # Example:
+  #   - assets/images/another_image.png
+
+
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Bold.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Lato-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Lato-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Lato-Regular.ttf
+          style: normal
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
